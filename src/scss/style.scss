@@ -323,4 +323,10 @@ body {
         color: #404145;
     }
 }
+}
 
+@media screen and (max-width: 500px){
+    body {
+        width: 100%;
+    }
+} 
