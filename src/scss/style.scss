@@ -57,7 +57,7 @@ color: $white;
 body {
    margin: auto;
    width: 480px;
-}
+   overflow-x: hidden;
 
 .header {
     border-bottom: 1px solid $gray-200;
