@@ -10910,6 +10910,10 @@ body .layanan {
   text-align: center;
 }
 
+body .layanan .swiper-wrapper {
+  padding-left: 7%;
+}
+
 body .layanan .serv-title {
   margin-bottom: 25px;
 }
@@ -10924,6 +10928,11 @@ body .layanan .serv-title p {
   color: rgba(64, 65, 69, 0.5);
   font-weight: 300;
   font-size: 14px;
+}
+
+body .layanan .swiper-slide {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 body .layanan .swiper-slide .summary {
@@ -10952,13 +10961,18 @@ body .testimonial .swiper-container-testi {
   overflow: hidden;
 }
 
+body .testimonial .swiper-container-testi .swiper-slide {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
 body .testimonial .swiper-container-testi .swiper-pagination {
   margin-top: 28px;
   z-index: 1;
   position: relative;
 }
 
-body .testimonial .swiper-container-testi .swiper-pagination.swiper-pagination-bullet-active {
+body .testimonial .swiper-container-testi .swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #1DD1A1;
 }
 

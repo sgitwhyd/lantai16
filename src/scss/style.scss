@@ -110,6 +110,9 @@ body {
 .layanan {
     margin-top: 32px;
     text-align: center;
+    .swiper-wrapper {
+            padding-left: 7%;
+        }
     .serv-title {
         margin-bottom: 25px;
             h4 {
@@ -125,6 +128,7 @@ body {
     }
 
     .swiper-slide {
+        cursor: grab;
         .summary {
             position: absolute;
             color: $white;
@@ -149,12 +153,17 @@ body {
 
      .swiper-container-testi {
         overflow: hidden;
+        .swiper-slide {
+            cursor: grab;
+        }
         .swiper-pagination {
             margin-top: 28px;
             z-index: 1;
             position: relative;
-            &.swiper-pagination-bullet-active {
+            span.swiper-pagination-bullet {
+                &.swiper-pagination-bullet-active {
                  color: $teal;
+            }
             }
         }
     }
