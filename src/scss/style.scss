@@ -63,6 +63,19 @@ body {
     border-bottom: 1px solid $gray-200;
     .nav {
         padding: 10px 0;
+        a {
+            font-weight: 800;
+            color: #404145;
+            font-size: 22px;
+            .square {
+                font-size: 10px;
+                width: 10px;
+                height: 10px;
+                background-color: $teal;
+                margin-top: 14px;
+                margin-left: 3px;
+            }
+        }
     }
 }
 
@@ -133,25 +146,11 @@ body {
 .testimonial {
     margin-top: 44px;
     border-top: 1px solid $gray-200;
-    border-bottom: 1px solid $gray-200;
-    text-align: center;
-    .testi-title {
-        padding-top: 25px;
-        margin-bottom: 16px;
-        h4 {
-            color: $teal;
-            font-weight: 700;
-            font-size: 18px;
-        }
-        p {
-            color: rgba(64, 65, 69, 0.5);
-            font-weight: 300;
-            font-size: 14px;
-        }
-    }
-    .swiper-container-testi {
+
+     .swiper-container-testi {
         overflow: hidden;
         .swiper-pagination {
+            margin-top: 28px;
             z-index: 1;
             position: relative;
             &.swiper-pagination-bullet-active {
@@ -159,51 +158,53 @@ body {
             }
         }
     }
+    .testi-title {
+        padding-top: 25px;
+        text-align: center;
+        h4 {
+            color: $teal;
+            font-weight: 700;
+            font-size: 18px;
+        }
 
-    .swiper-slide {
-        .testi {
-            border: 1px solid $gray-200;
-            box-sizing: border-box;
-            border-radius: 5px;
-            width : 369px;
-            height : 180px;
-            margin: auto;
-            margin-bottom: 28px;
-            .info-testi {
-                font-size: 14px;
-                font-weight: 500;
-                font-style: italic;
-                padding: 17px 15px ;
-                margin-bottom: 17px; 
-                color: #404145;
-            }
-            .person {
-                margin: auto;
-                width: 270px;
-                margin-bottom: 25px;
-                img {
-                    width: 48px;
-                    height: 45px;
-                    margin-right: 11px;
-                }
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            color: rgba(64, 65, 69, 0.5);
+        }
+    }
 
-                .info {
-                    text-align: left;
-                    .name {
-                    font-size: 14px;
+    .testi {
+        border: 1px solid $gray-200;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 28px;
+        margin: 0 20px;
+
+        .info-testi {
+            font-style: italic;
+            font-weight: 500;
+            font-size: 14px;
+            color: rgba(64, 65, 69, 0.8);
+            margin-bottom: 37px;
+        }
+
+        .person {
+            display: flex;
+            justify-content: center;
+            .personal {
+                text-align: left;
+                margin-left: 15px;
+
+                .name {
                     font-weight: 500;
-                    color: #404145;
-                }
-                
-                p {
-                    margin: 0;
+                    font-size: 15px;
                 }
 
                 .company {
                     font-size: 14px;
                     font-weight: 300;
                     color: rgba(64, 65, 69, 0.5);
-                }
                 }
             }
         }
@@ -212,6 +213,8 @@ body {
 
 .feature {
     text-align: center;
+    margin-top: 27px;
+    border-top: 1px solid $gray-200;
     border-bottom: 1px solid $gray-200;
 .summary-feature {
     padding-top: 33px;
@@ -329,4 +332,22 @@ body {
     body {
         width: 100%;
     }
+
+    .layanan {
+        .swiper-slide {
+
+            .summary {
+                padding-left: 17px !important;
+                font-size: 14px !important;
+            }
+
+            img {
+                width: 150px  !important;
+                height: 200px !important;
+            //     width: 212px;
+            // height: 287px;
+            }
+        }
+    }
+
 } 
