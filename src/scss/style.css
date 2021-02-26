@@ -11149,12 +11149,43 @@ body .footer p {
     width: 100%;
   }
   .layanan .swiper-slide .summary {
-    padding-left: 17px !important;
+    padding-left: 15% !important;
+    font-size: 14px !important;
+  }
+  .layanan .swiper-slide img {
+    width: 190px  !important;
+    height: 260px !important;
+  }
+  .feature .feature-list {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .layanan .swiper-slide .summary {
+    padding-left: 15% !important;
+    font-size: 14px !important;
+  }
+  .layanan .swiper-slide img {
+    width: 180px  !important;
+    height: 250px !important;
+  }
+  .feature .feature-list {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .layanan .swiper-slide .summary {
+    padding-left: 15% !important;
     font-size: 14px !important;
   }
   .layanan .swiper-slide img {
     width: 150px  !important;
     height: 200px !important;
+  }
+  .feature .feature-list {
+    padding: 0 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
