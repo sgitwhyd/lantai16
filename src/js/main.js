@@ -18,14 +18,17 @@ var swiper = new Swiper('.swiper-container-testi', {
     },
 });
 
-new Typed(".text-title", {
-    strings: [
-        `Kami Membuat <br> Aplikasi Yang <br>`,
-        `Kami Membuat <br> Aplikasi Yang <br> <span>Fokus Pada Hasil</span>`,
-    ],
-    typeSpeed: 40,
-    showCursor: false,
-    backDelay: 50,
-    backSpeed: 30,
+new TypeIt('#motto', {
+    speed: 60,
     loop: true,
-});
+    cursor: false,
+    deleteSpeed: 60
+})
+    .type('Fokus Pada Hasil')
+    .pause(400)
+    .options({ speed: 200 })
+    .delete(5)
+    .options({ speed: 60 })
+    .pause(300)
+    .type('Karya')
+    .go();
