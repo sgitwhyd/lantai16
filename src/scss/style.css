@@ -10910,6 +10910,11 @@ body .partner .partner-img .img img {
           filter: grayscale(200%);
 }
 
+body .partner .partner-img .img svg {
+  -webkit-filter: grayscale(200%);
+          filter: grayscale(200%);
+}
+
 body .layanan {
   margin-top: 32px;
   text-align: center;
