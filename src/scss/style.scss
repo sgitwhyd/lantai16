@@ -104,6 +104,11 @@ body {
     }
     .partner-img {
         margin-top: -10px;
+            .img {
+                img {
+                    filter: grayscale(200%);
+                }
+            }
     }
 }
 

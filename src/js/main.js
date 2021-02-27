@@ -18,3 +18,14 @@ var swiper = new Swiper('.swiper-container-testi', {
     },
 });
 
+new Typed(".text-title", {
+    strings: [
+        `Kami Membuat <br> Aplikasi Yang <br>`,
+        `Kami Membuat <br> Aplikasi Yang <br> <span>Fokus Pada Hasil</span>`,
+    ],
+    typeSpeed: 40,
+    showCursor: false,
+    backDelay: 50,
+    backSpeed: 30,
+    loop: true,
+});

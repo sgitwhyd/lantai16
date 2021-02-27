@@ -10905,6 +10905,11 @@ body .partner .partner-img {
   margin-top: -10px;
 }
 
+body .partner .partner-img .img img {
+  -webkit-filter: grayscale(200%);
+          filter: grayscale(200%);
+}
+
 body .layanan {
   margin-top: 32px;
   text-align: center;
