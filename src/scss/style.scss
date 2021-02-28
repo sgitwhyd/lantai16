@@ -106,12 +106,19 @@ body {
         margin-top: -10px;
             .img {
                 margin-right: 40px;
+                cursor: pointer;
                 img {
-                    filter: grayscale(200%);
+                    filter: grayscale(1);
+                    opacity: 0.5;
+                    @include hover() {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
                 }
 
                 svg {
-                    filter: grayscale(200%);
+                    filter: grayscale(1);
+                    opacity: 0.5;
                 }
             }
     }

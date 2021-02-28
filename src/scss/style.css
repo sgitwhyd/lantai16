@@ -10907,16 +10907,25 @@ body .partner .partner-img {
 
 body .partner .partner-img .img {
   margin-right: 40px;
+  cursor: pointer;
 }
 
 body .partner .partner-img .img img {
-  -webkit-filter: grayscale(200%);
-          filter: grayscale(200%);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  opacity: 0.5;
+}
+
+body .partner .partner-img .img img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  opacity: 1;
 }
 
 body .partner .partner-img .img svg {
-  -webkit-filter: grayscale(200%);
-          filter: grayscale(200%);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  opacity: 0.5;
 }
 
 body .layanan {
